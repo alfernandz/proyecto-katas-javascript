@@ -21,5 +21,17 @@ const words = [
   'code'
 ];
 function repeatCounter(list) {
-  // Completar
+  const count = {};
+
+  for (const word of list) {
+    if (count[word]) {
+      count[word]++;
+    } else {
+      count[word] = 1;
+    }
+  }
+
+  return count;
 }
+
+console.log(repeatCounter(words));
