@@ -9,6 +9,7 @@ El repositorio está organizado en tres bloques temáticos principales según el
 
 proyecto-katas-javascript/
 │
+
 ├── 📂 DOM/                         # Selección, creación, modificación y eventos en el DOM
 │   ├── 📁 Ejercicio 1 DOM/         # Selectores (querySelector, querySelectorAll, data-attributes)
 │   ├── 📁 Ejercicio 2 DOM/         # Creación e inserción dinámica de nodos (createElement, appendChild)
